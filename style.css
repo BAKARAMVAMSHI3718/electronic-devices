@@ -1,0 +1,50 @@
+body{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+li {
+    display: inline;
+    padding: 20px;
+    background-color: black;
+    border-radius: 50px;
+}
+button{
+    font-size: 30px;
+    color:white;
+    background-color: black;
+    border-radius: 50px;
+}
+div {
+    display: inline;
+}
+div.iphone{
+    background-color: black;
+    margin: auto;
+    border: 1px solid black;
+}
+div.mac{
+    background-color: black;
+    padding-bottom: 70px;
+    border-radius: 20px;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
